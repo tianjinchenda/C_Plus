@@ -5,9 +5,9 @@ int main(){
 	printf("Please input the Radis of the Circle below\n");
 	float result;
 	float radius;
-	scanf("%g",&radius);
+	scanf("%f",&radius);
 	result = radius * 2 * 3.14;
-	printf("The Length of the Circle is %g\n",result);
+	printf("The Length of the Circle is %f\n",result);
 	return 0;
 	
 }
